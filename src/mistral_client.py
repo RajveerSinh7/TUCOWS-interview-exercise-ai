@@ -9,9 +9,7 @@ def generate_with_mistral(prompt: str, max_tokens: int = 256, temperature: float
     If MISTRAL_API_KEY is not set, return a safe fallback (synthetic JSON) for dev/demo.
     """
     if not MISTRAL_API_KEY:
-        # Fallback: synthesize a small JSON by extracting first referenced title heuristically
-        # NOTE: this is for offline/demo runs only.
-        # Try to find first "Title: text" block in prompt
+        
         fallback = {"answer": "", "references": [], "action_required": "request_user_info"}
         try:
             # crude extraction of first context title
