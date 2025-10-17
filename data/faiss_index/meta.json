@@ -1,0 +1,22 @@
+[
+  {
+    "id": "domain_suspension",
+    "title": "Policy: Domain Suspension Guidelines, Section 4.2",
+    "text": "Domains may be suspended for policy violations, missing WHOIS information, or unpaid billing. To reactivate, update WHOIS details, confirm payment, or contact support via abuse@example.com."
+  },
+  {
+    "id": "whois_policy",
+    "title": "WHOIS Update Policy",
+    "text": "Whois must be up-to-date. Update your contact details in the account dashboard. Missing WHOIS can lead to suspension notices."
+  },
+  {
+    "id": "billing_faq",
+    "title": "Billing & Payment FAQ",
+    "text": "Payment failures cause interruptions. Update card details or contact billing@example.com to resolve payment holds."
+  },
+  {
+    "id": "abuse_escalation",
+    "title": "Abuse Escalation SOP",
+    "text": "If abuse is suspected escalate to the abuse team. Provide ticket ID, domain, and evidence when escalating."
+  }
+]
