@@ -17,7 +17,9 @@ def load_store():
     idx_path = os.path.join(FAISS_DIR, "index.faiss")
     meta_path = os.path.join(FAISS_DIR, "meta.json")
     if not os.path.exists(idx_path) or not os.path.exists(meta_path):
-        raise FileNotFoundError("FAISS index or meta.json not found. Run src/index_builder.py first.")
+        print("Index missing—building now...")
+        from index_builder import build_index  # Lazy import to avoid always loading
+        build_index()
     _index = faiss.read_index(idx_path)
     with open(meta_path, "r", encoding="utf-8") as f:
         _meta = json.load(f)
