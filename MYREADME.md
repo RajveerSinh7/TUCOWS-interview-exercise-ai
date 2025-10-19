@@ -81,7 +81,7 @@ graph TB
 
 #### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/yourusername/TUCOWS-interview-exercise-ai.git  # Replace with your forked repo
+git clone https://github.com/RajveerSinh7/TUCOWS-interview-exercise-ai.git 
 cd TUCOWS-interview-exercise-ai
 ```
 
@@ -161,8 +161,9 @@ docker compose down
 
 ### Docker Hub (Prebuilt Image)
 ```bash
-docker pull yourusername/knowledge-assistant:latest  # Replace with yourusername
-docker run -p 8000:8000 yourusername/knowledge-assistant
+docker pull rajveersinhj/knowledge-assistant:latest
+docker images #verify the images
+docker run -p 8000:8000 rajveersinhj/knowledge-assistant:latest
 ```
 
 ---
