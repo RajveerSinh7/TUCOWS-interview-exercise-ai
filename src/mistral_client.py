@@ -38,7 +38,7 @@ def generate_with_mistral(prompt: str, max_tokens: int = 256, temperature: float
         "Content-Type": "application/json"
     }
     payload = {
-        "model": "mistral-large-latest",  # Or "mistral-medium-latest" for speed/cost
+        "model": "mistral-large-latest",  
         "messages": [{"role": "user", "content": prompt}],
         "max_tokens": max_tokens,
         "temperature": temperature

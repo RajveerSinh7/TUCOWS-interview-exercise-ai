@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-from typing import List  # For batch annotation
+from typing import List  
 from store import retrieve
 from prompting import build_prompt
 from mistral_client import generate_with_mistral
@@ -8,7 +8,7 @@ import json
 import uvicorn
 import logging
 import os
-import re  # For markdown stripping
+import re  
 
 app = FastAPI(title="RAG Knowledge Assistant - MCP")
 logger = logging.getLogger("uvicorn")
