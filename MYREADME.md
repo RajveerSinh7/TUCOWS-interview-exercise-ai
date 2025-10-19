@@ -20,7 +20,7 @@ The system uses synthetic docs for demo purposes but is extensible to real polic
 ## 🏗️ System Architecture
 
 ```mermaid
-graph TB
+flowchart TB
     A[Client Request] --> B[FastAPI Endpoint: /resolve-ticket]
     B --> C[Query Embedding (Sentence Transformers)]
     C --> D[Vector Search (FAISS IndexFlatL2)]
@@ -207,6 +207,7 @@ curl -X POST "http://localhost:8000/resolve-tickets"   -H "Content-Type: applica
 ```bash
 curl -X GET "http://localhost:8000/"
 ```
+
 **Returns:**  
 ```json
 {"message": "Tucows RAG API: POST to /resolve-ticket with {'ticket_text': 'your query'}"}
