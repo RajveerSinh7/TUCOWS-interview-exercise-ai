@@ -20,18 +20,18 @@ The system uses synthetic docs for demo purposes but is extensible to real polic
 ## 🏗️ System Architecture
 
 ```mermaid
-flowchart TB
+graph TB
     A[Client Request] --> B[FastAPI Endpoint: /resolve-ticket]
-    B --> C[Query Embedding (Sentence Transformers)]
-    C --> D[Vector Search (FAISS IndexFlatL2)]
-    D --> E[Top-K Context Retrieval (store.py)]
-    E --> F[MCP Prompt Construction (prompting.py)]
-    F --> G[LLM Generation (Mistral API or Fallback)]
-    G --> H[JSON Parsing & Validation (main.py)]
+    B --> C[Query Embedding - Sentence Transformers]
+    C --> D[Vector Search - FAISS IndexFlatL2]
+    D --> E[Top-K Context Retrieval - store.py]
+    E --> F[MCP Prompt Construction - prompting.py]
+    F --> G[LLM Generation - Mistral API or Fallback]
+    G --> H[JSON Parsing & Validation - main.py]
     H --> I[Structured MCP Response]
 
-    J[Index Build (index_builder.py)] --> D
-    K[.env Config (config.py)] --> F
+    J[Index Build - index_builder.py] --> D
+    K[.env Config - config.py] --> F
     K --> G
 ```
 
