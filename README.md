@@ -177,14 +177,7 @@ docker build -t knowledge-assistant .
 docker run -p 8000:8000 knowledge-assistant
 ```
 
-### 3️⃣ Push to Docker Hub
-
-``` bash
-docker tag knowledge-assistant rajveersinhj/knowledge-assistant:latest
-docker push rajveersinhj/knowledge-assistant:latest
-```
-
-### 4️⃣ Test API
+### 3️⃣ Test API
 
 ``` bash
 curl -X POST "http://localhost:8000/resolve-tickets" -H "Content-Type: application/json" -d '[{"ticket_text": "My domain was suspended..."}, {"ticket_text": "Billing issue with payment failure."}]'
