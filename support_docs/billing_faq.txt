@@ -1,0 +1,5 @@
+Title: Billing & Payment FAQ
+Payment failures or expired credit cards may cause interruptions to your domain services. 
+To prevent service disruption, ensure your payment method is valid and has sufficient funds. 
+If a payment fails, update your card details immediately or contact billing@example.com to resolve any holds. 
+Invoices and payment reminders are sent to the registered email address.

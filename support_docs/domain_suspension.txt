@@ -1,0 +1,4 @@
+Title: Policy: Domain Suspension Guidelines, Section 4.2
+Your domain may be suspended for various reasons including policy violations, missing or incorrect WHOIS information, or unpaid billing. 
+To reactivate a suspended domain, please log in to your account, update your WHOIS contact details if needed, confirm any pending payments, and contact support at abuse@example.com if you require further assistance. 
+Suspension notices may be sent via email; ensure your registered email is up-to-date.

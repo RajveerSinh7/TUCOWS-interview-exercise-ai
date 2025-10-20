@@ -1,22 +1,22 @@
 [
   {
+    "id": "abuse_escalation",
+    "title": "abuse_escalation.txt",
+    "text": "Title: Abuse Escalation SOP\nIf you suspect abuse or policy violations related to a domain or account, escalate the issue to the Abuse Team. \nProvide the ticket ID, domain name, relevant evidence, and a clear description of the issue. \nThe Abuse Team will review the case and take appropriate action according to company policies.\nResponse times may vary depending on severity and case complexity."
+  },
+  {
     "id": "domain_suspension",
-    "title": "Policy: Domain Suspension Guidelines, Section 4.2",
-    "text": "Domains may be suspended for policy violations, missing WHOIS information, or unpaid billing. To reactivate, update WHOIS details, confirm payment, or contact support via abuse@example.com."
+    "title": "domain_suspension.txt",
+    "text": "Title: Policy: Domain Suspension Guidelines, Section 4.2\nYour domain may be suspended for various reasons including policy violations, missing or incorrect WHOIS information, or unpaid billing. \nTo reactivate a suspended domain, please log in to your account, update your WHOIS contact details if needed, confirm any pending payments, and contact support at abuse@example.com if you require further assistance. \nSuspension notices may be sent via email; ensure your registered email is up-to-date."
   },
   {
     "id": "whois_policy",
-    "title": "WHOIS Update Policy",
-    "text": "Whois must be up-to-date. Update your contact details in the account dashboard. Missing WHOIS can lead to suspension notices."
+    "title": "whois_policy.txt",
+    "text": "Title: WHOIS Update Policy\nIt is essential to keep your domain's WHOIS information accurate and up-to-date. \nThis includes your name, address, phone number, and email associated with the domain registration. \nMissing or incorrect WHOIS details can lead to domain suspension or delayed notifications. \nYou can update your WHOIS information in your account dashboard at any time."
   },
   {
     "id": "billing_faq",
-    "title": "Billing & Payment FAQ",
-    "text": "Payment failures cause interruptions. Update card details or contact billing@example.com to resolve payment holds."
-  },
-  {
-    "id": "abuse_escalation",
-    "title": "Abuse Escalation SOP",
-    "text": "If abuse is suspected escalate to the abuse team. Provide ticket ID, domain, and evidence when escalating."
+    "title": "billing_faq.txt",
+    "text": "Title: Billing & Payment FAQ\nPayment failures or expired credit cards may cause interruptions to your domain services. \nTo prevent service disruption, ensure your payment method is valid and has sufficient funds. \nIf a payment fails, update your card details immediately or contact billing@example.com to resolve any holds. \nInvoices and payment reminders are sent to the registered email address."
   }
 ]

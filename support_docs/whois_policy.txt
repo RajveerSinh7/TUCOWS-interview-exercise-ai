@@ -1,0 +1,5 @@
+Title: WHOIS Update Policy
+It is essential to keep your domain's WHOIS information accurate and up-to-date. 
+This includes your name, address, phone number, and email associated with the domain registration. 
+Missing or incorrect WHOIS details can lead to domain suspension or delayed notifications. 
+You can update your WHOIS information in your account dashboard at any time.

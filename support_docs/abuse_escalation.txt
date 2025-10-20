@@ -1,0 +1,5 @@
+Title: Abuse Escalation SOP
+If you suspect abuse or policy violations related to a domain or account, escalate the issue to the Abuse Team. 
+Provide the ticket ID, domain name, relevant evidence, and a clear description of the issue. 
+The Abuse Team will review the case and take appropriate action according to company policies.
+Response times may vary depending on severity and case complexity.
